@@ -1,0 +1,11 @@
+{
+    "buildCommand": "cd mernapp && npm install && npm run build",
+    "outputDirectory": "mernapp/build",
+    "framework": "create-react-app",
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/backend/$1"
+        }
+    ]
+}
