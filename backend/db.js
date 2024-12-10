@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-const mongoURI = "mongodb://127.0.0.1:27017/mernapp";
+const mongoURI = process.env.DB_URI;
 
 const mongoDB = async () => {
   try {

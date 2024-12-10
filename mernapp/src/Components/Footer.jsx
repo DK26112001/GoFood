@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.js'; // Ensure this path is correct
+// import './Footer'; // Ensure this path is correct
 import { Link } from 'react-router-dom';
 
 export default function Footer() {

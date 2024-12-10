@@ -105,7 +105,7 @@ const Home = () => {
                         ? groupedFoodItems[category.CategoryName].map((item, index) => (
                           <div key={index} className='col-12 col-md-6 col-lg-3 mb-3'>
                             {console.log(item)}
-                            <Card item={item} finalPrice = {item.price} />
+                            <Card item={item} finalPrice = {item.options[0].half} />
                           </div>
                         ))
                         : <div>No data found for this category</div>

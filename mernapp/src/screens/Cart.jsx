@@ -1,6 +1,6 @@
 import React from 'react'
 import DeleteIcon from '@mui/icons-material/Delete';
-import { useCart, useDispatchCart } from "../Components/ContextReducer.js"
+import { useCart, useDispatchCart } from "../Components/ContextReducer"
 export default function Cart() {
   let data = useCart();
   let dispatch = useDispatchCart();

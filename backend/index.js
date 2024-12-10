@@ -3,6 +3,8 @@ const app = express();
 const port = 8000;
 const mongoDB = require('./db');
 const cors = require("cors")
+require('dotenv').config();
+
 
 // app.use(cors({
 //   origin: true,
